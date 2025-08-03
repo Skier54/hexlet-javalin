@@ -48,6 +48,10 @@ public class HelloWorld {
             ctx.render("courses/index.jte", model("page", page));
         });
 
+        app.get("/", ctx -> {
+            ctx.render("index.jte");
+        });
+
         app.start(7070);
     }
 }
