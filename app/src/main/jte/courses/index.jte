@@ -3,7 +3,9 @@
 
 <html>
     <head>
-        <title>Хекслет</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Hello Hexlet!</title>
     </head>
     <body>
         <h1>${page.getHeader()}</h1>
